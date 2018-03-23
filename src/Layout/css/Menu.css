@@ -1,0 +1,83 @@
+.panel-titles {
+    color: peru;
+}
+.panel.panel-primary {
+    border: 0;
+    box-shadow: none;
+}
+
+.panel .list-group {
+    width: 100%;
+}
+.panel .list-group-item {
+    border: 0;
+    background-color: transparent;
+    box-shadow: none;
+}
+.panel .panel-body {
+    border: 1px solid #ddd;
+}
+
+.panel .panel-footer {
+    border-color: #ddd;
+    border-top: 0;
+    color: #777;
+}
+.panel .panel-footer > div {
+    padding: 0;
+}
+.panel .panel-footer label {
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.panel-footer .badge {
+    display: inline-block;
+    font-size: 18px;
+    padding: 5px 10px;
+    margin-top: 27px;
+    border-radius: 15px;
+    background-color: peru;
+}
+.panel-footer .badge span {
+    font-size: 75%;
+}
+
+.pedidos h3 {
+    background-color: #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    color: #777;    
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.pedidos .list-group-item {
+    border-top: 1px solid #d4d4d4;
+    margin-top: 5px;
+    padding: 5px 10px;
+}
+.pedidos .list-group-item:first-child {
+    border-top: 0;
+    margin-top: 0;
+}
+.pedidos h4 {
+    color: #444;
+    font-size: 16px;
+}
+.pedidos p {
+    color: #777;
+}
+.pedidos p span {
+    float: right;
+    font-size: 14px;
+}
+.pedidos p:last-child span {
+    background-color: #444;
+    color: white;
+    border-radius: 8px;
+    padding: 3px 6px;
+    font-size: 14px;
+    float: right;
+}

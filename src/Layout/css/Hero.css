@@ -1,0 +1,49 @@
+.hero {
+    background-color: peru;
+    color: white; 
+    background-image: url(../../../src/assets/bebidas.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 3rem;
+}
+.platillos .hero {
+    background-image: url(../../../src/assets/platillos.jpg);
+}
+.hero > .container {
+    position: relative;
+    min-height: 40vh;
+}
+
+.box {
+    position: absolute;
+    bottom: 2rem;
+    z-index: 2;
+}
+.box h1 {
+    font-size: 48px;
+}
+.box p {
+    font-size: 20px;
+    max-width: 40em;
+}
+
+@media (max-width: 768px) {
+
+    .box {
+        position: relative;
+        margin-top: 10rem;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .box h1 {
+        font-size: 36px;
+    }
+    .box p {
+        font-size: 16px; 
+    }
+    
+}

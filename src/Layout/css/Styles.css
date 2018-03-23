@@ -1,0 +1,76 @@
+body.body {
+  margin: 0;
+  padding: 0;
+
+  color: black;
+  font-family: Lato, Arial, sans-serif;
+  font-weight: 400;
+}
+
+.navbar.navbar-top {
+  background-color: peru;
+  min-height: 0;
+}
+.navbar.navbar-top .navbar-default {
+  background-color: transparent;
+  border: 0;
+  margin-bottom: 0;
+  min-height: 0;
+  display: inline-block;
+  float: right;
+}
+.navbar.navbar-top .navbar-nav > li {
+  display: inline-block;
+}
+.navbar.navbar-top .navbar-nav > li > a {
+  color: white;
+  padding: .5rem;
+}
+
+a.navbar-brand {
+  font-weight: 700;
+  text-shadow: none;
+  color: peru;
+  outline-offset: 0;
+  font-size: 2em;
+  border-right: 1px solid peru;
+  transition: .2s all;
+}
+a.navbar-brand:hover {
+  color: #aaa;
+}
+
+.nav.navbar-nav > li > a {
+  color: #aaa;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: .2s all;
+}
+.nav.navbar-nav > li > a:hover,
+.nav.navbar-nav > li > .active {
+  background-color: transparent;
+  color: peru;
+}
+
+button.navbar-toggle {
+  background-color: peru;
+}
+button.navbar-toggle span {
+  background-color: white;
+}
+
+#mainApp {
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 9rem;
+}
+
+.bs-docs-footer {
+  background: #eee;
+  color: white;
+  padding: 3rem 0;
+  color: #444;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}

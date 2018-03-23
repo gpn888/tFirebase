@@ -1,0 +1,32 @@
+.contacto h4 {
+    font-size: 26px;
+    margin-bottom: 4rem;
+}
+
+.form {
+    margin-bottom: 5rem;
+}
+.form input, 
+.form textarea {
+    border: 0; 
+    box-shadow: none;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;
+}
+.form label {
+    font-weight: 400;
+    color: #777;
+    letter-spacing: 5px;
+}
+.form button {
+    background-color: peru;
+    color: white;
+    border: 0;
+    width: 45%;
+    margin-top: 2rem;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 1.5rem;
+    margin-left: 22.5%;
+    margin-right: 22.5%;
+}
